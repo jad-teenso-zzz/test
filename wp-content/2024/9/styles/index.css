@@ -14,7 +14,7 @@ body {
 header {
     padding: 10px;
     border-bottom: 5px solid #ff0000;
-    display: flex;
+    display: none;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
@@ -212,38 +212,6 @@ nav ul li:hover .dropbtn i {
     cursor: pointer;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-top: 5px solid #ff0000;  
-    margin: 0;
-    padding: 5px;
-    background-color: #fff;
-    gap: 20px;
-    text-align: center;
-}
-
-footer img {
-    height: 60px;
-    object-fit: contain;
-    max-width: 100%;
-}
-
-footer p {
-    color: #7f7f7f;
-    font-weight: 500;
-}
-
-footer p a {
-    text-decoration: none;
-    color: #e92121;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-
 /* General Styles */
 main {
     padding: 20px;
@@ -398,28 +366,6 @@ main {
 
 .careers a:hover {
     text-decoration: underline;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .welcome {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        display: flex;
-    }
-    .features {
-        flex-direction: column;
-    }
-
-    .index-cta {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 /* Important Links */
